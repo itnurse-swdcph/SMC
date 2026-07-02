@@ -503,6 +503,7 @@ function downloadBeautifulQrCard(surveyUrl, titleText, subtitleText, filename) {
 // SURVEY FORM SUBMISSION
 // ----------------------------------------------------
 function initSurveyForm(type) {
+  document.body.classList.add("survey-mode");
   const form = document.getElementById(`survey-${type}-form`);
   if (!form) return;
   
