@@ -47,6 +47,20 @@ body {
   overflow-x: hidden;
 }
 
+body.survey-mode header,
+body.survey-mode footer {
+  display: none !important;
+}
+
+body.survey-mode main {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+body.survey-mode .container {
+  max-width: 980px;
+}
+
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
